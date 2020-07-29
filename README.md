@@ -20,6 +20,8 @@ chmod +x ./customer.py
 
 If you want to add more packs with inside jokes with your friends and family, you can add a new file in the `packs` directory with a newline separated list of your custom words. Ideally, you should suffix the pack name with `-private.pack` to ensure it is correctly ignored by `git` if you decide to make a pull request.
 
+If you are worried about storing your private packs on ephemeral local media, you can use `sync.sh` to copy all private packs to a private repository. You'll need to change the `private_path` variable before running as a regular shell script.
+
 ## Contribution
 
 I’d love for you to help us expand this project!
